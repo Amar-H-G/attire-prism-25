@@ -8,7 +8,7 @@ export function HomeBrandStory() {
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-white/10">
             <img
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1000&q=85&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=1000&q=85&auto=format&fit=crop"
               alt="Attire Prism boutique interior"
               className="h-full w-full object-cover"
               loading="lazy"

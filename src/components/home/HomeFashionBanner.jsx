@@ -6,7 +6,7 @@ export function HomeFashionBanner() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="relative overflow-hidden rounded-3xl border border-white/10">
           <img
-            src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=1600&q=85&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=1600&q=85&auto=format&fit=crop"
             alt=""
             className="aspect-[21/9] min-h-[280px] w-full object-cover sm:min-h-[360px]"
             loading="lazy"

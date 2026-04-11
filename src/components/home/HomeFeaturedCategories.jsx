@@ -7,28 +7,28 @@ const CATEGORIES = [
     title: 'Men',
     line: 'Tailoring that holds its line from desk to dinner.',
     image:
-      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=900&q=85&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=900&q=85&auto=format&fit=crop',
   },
   {
     key: 'Women',
     title: 'Women',
     line: 'Drape, structure, and pieces you reach for without thinking.',
     image:
-      'https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=900&q=85&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=900&q=85&auto=format&fit=crop',
   },
   {
     key: 'Trending',
     title: 'Trending',
     line: 'What our floor team cannot keep on the rails this week.',
     image:
-      'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=900&q=85&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=900&q=85&auto=format&fit=crop',
   },
   {
     key: 'New Arrivals',
     title: 'New arrivals',
     line: 'Fresh drops — limited first runs, restocked on rhythm.',
     image:
-      'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=900&q=85&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=900&q=85&auto=format&fit=crop',
   },
 ]
 

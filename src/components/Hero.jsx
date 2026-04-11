@@ -76,7 +76,7 @@ export function Hero() {
         <div className="hero-visual relative mx-auto w-full max-w-md lg:max-w-none">
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-white/10 bg-surface-800 shadow-2xl shadow-primary/15 ring-1 ring-white/5 sm:aspect-[3/4] lg:ml-auto lg:max-w-lg">
             <img
-              src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=900&q=85&auto=format&fit=crop"
+              src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=900&q=85&auto=format&fit=crop"
               alt="Attire Prism — hero campaign"
               className="h-full w-full object-cover transition duration-700 ease-out hover:scale-105"
               loading="eager"
