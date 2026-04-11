@@ -1,4 +1,5 @@
 import { useLayoutEffect, useRef } from 'react'
+import { Link } from 'react-router-dom'
 import { gsap } from 'gsap'
 import { prefersReducedMotion } from '../lib/reducedMotion'
 
@@ -10,33 +11,32 @@ export function Hero() {
     const el = rootRef.current
     if (!el) return
 
-    const ctx = gsap.context(() => {
-      const q = gsap.utils.selector(el)
-      gsap.from(q('.hero-anim'), {
-        opacity: 0,
-        y: 48,
-        duration: 0.95,
-        stagger: 0.11,
-        ease: 'power3.out',
-      })
-      gsap.from(q('.hero-visual'), {
-        opacity: 0,
-        scale: 0.94,
-        duration: 1.1,
-        delay: 0.15,
-        ease: 'power3.out',
-      })
-    }, el)
+    let ctx
+    const frame = requestAnimationFrame(() => {
+      ctx = gsap.context(() => {
+        const q = gsap.utils.selector(el)
+        gsap.from(q('.hero-anim'), {
+          y: 20,
+          duration: 0.48,
+          stagger: 0.05,
+          ease: 'power2.out',
+        })
+        gsap.from(q('.hero-visual'), {
+          scale: 0.99,
+          duration: 0.52,
+          ease: 'power2.out',
+        })
+      }, el)
+    })
 
-    return () => ctx.revert()
+    return () => {
+      cancelAnimationFrame(frame)
+      ctx?.revert()
+    }
   }, [])
 
   return (
-    <section
-      id="top"
-      ref={rootRef}
-      className="relative overflow-hidden border-b border-white/5"
-    >
+    <section className="relative overflow-hidden border-b border-white/5">
       <div
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-10%,rgba(92,125,255,0.28),transparent),radial-gradient(ellipse_50%_40%_at_100%_50%,rgba(201,164,184,0.12),transparent)]"
         aria-hidden
@@ -58,18 +58,18 @@ export function Hero() {
             casuals, and runway energy for men and women who dress with intent.
           </p>
           <div className="hero-anim mt-8 flex flex-wrap items-center gap-4">
-            <a
-              href="#products"
+            <Link
+              to="/shop"
               className="inline-flex min-h-12 items-center justify-center rounded-full bg-primary px-8 text-base font-semibold text-surface-950 shadow-xl shadow-primary/30 transition hover:bg-primary-dim"
             >
               Shop now
-            </a>
-            <a
-              href="#about"
+            </Link>
+            <Link
+              to="/about"
               className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/15 px-8 text-base font-medium text-white transition hover:border-primary/50 hover:text-primary"
             >
               Our story
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -79,6 +79,9 @@ export function Hero() {
               src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=900&q=85&auto=format&fit=crop"
               alt="Fashion editorial — Attire Prism"
               className="h-full w-full object-cover transition duration-700 ease-out hover:scale-105"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-surface-950/80 via-transparent to-transparent" />
             <div className="absolute bottom-5 left-5 right-5 rounded-2xl border border-white/10 bg-surface-900/70 p-4 backdrop-blur-md">

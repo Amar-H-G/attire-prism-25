@@ -1,13 +1,20 @@
+import { NavLink } from 'react-router-dom'
 import { X } from 'lucide-react'
 import { useBodyScrollLock } from '../hooks/useBodyScrollLock'
 
 const links = [
-  { href: '#top', label: 'Home' },
-  { href: '#products', label: 'Shop' },
-  { href: '#about', label: 'About' },
-  { href: '#gallery', label: 'Gallery' },
-  { href: '#footer', label: 'Contact' },
+  { to: '/', label: 'Home', end: true },
+  { to: '/shop', label: 'Shop', end: false },
+  { to: '/about', label: 'About', end: false },
+  { to: '/contact', label: 'Contact', end: false },
 ]
+
+const drawerLinkClass = ({ isActive }) =>
+  `rounded-xl px-4 py-3.5 text-base font-medium transition ${
+    isActive
+      ? 'bg-primary/15 text-primary'
+      : 'text-white/90 hover:bg-white/5 hover:text-primary'
+  }`
 
 export function MobileDrawer({ open, onClose }) {
   useBodyScrollLock(open)
@@ -42,15 +49,16 @@ export function MobileDrawer({ open, onClose }) {
           </button>
         </div>
         <nav className="flex flex-1 flex-col gap-1 p-4" aria-label="Mobile">
-          {links.map(({ href, label }) => (
-            <a
-              key={href}
-              href={href}
+          {links.map(({ to, label, end }) => (
+            <NavLink
+              key={to + label}
+              to={to}
+              end={end}
               onClick={onClose}
-              className="rounded-xl px-4 py-3.5 text-base font-medium text-white/90 transition hover:bg-white/5 hover:text-primary"
+              className={drawerLinkClass}
             >
               {label}
-            </a>
+            </NavLink>
           ))}
         </nav>
         <p className="border-t border-white/10 px-5 py-4 text-sm text-muted">
