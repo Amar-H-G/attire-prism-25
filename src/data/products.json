@@ -1,0 +1,128 @@
+[
+  {
+    "id": "p1",
+    "name": "Obsidian Wool Overcoat",
+    "price": 289,
+    "image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Formal", "Trending"]
+  },
+  {
+    "id": "p2",
+    "name": "Linen Summer Blazer",
+    "price": 198,
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Casual", "Trending"]
+  },
+  {
+    "id": "p3",
+    "name": "Merino Crew Knit",
+    "price": 112,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Casual"]
+  },
+  {
+    "id": "p4",
+    "name": "Tailored Charcoal Suit",
+    "price": 649,
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Formal", "Trending"]
+  },
+  {
+    "id": "p5",
+    "name": "Relaxed Selvedge Denim",
+    "price": 138,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Casual"]
+  },
+  {
+    "id": "p6",
+    "name": "Silk Evening Shirt",
+    "price": 156,
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Formal"]
+  },
+  {
+    "id": "p7",
+    "name": "Aurora Drape Dress",
+    "price": 228,
+    "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Formal", "Trending"]
+  },
+  {
+    "id": "p8",
+    "name": "Cashmere Wrap Coat",
+    "price": 420,
+    "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Formal", "Trending"]
+  },
+  {
+    "id": "p9",
+    "name": "Pleated Midi Skirt",
+    "price": 98,
+    "image": "https://images.unsplash.com/photo-1581044777550-765295a8405c?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Casual"]
+  },
+  {
+    "id": "p10",
+    "name": "Structured Blazer — Ivory",
+    "price": 265,
+    "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Formal"]
+  },
+  {
+    "id": "p11",
+    "name": "Organic Cotton Tee Set",
+    "price": 64,
+    "image": "https://images.unsplash.com/photo-1576566588028-4147f3842e27?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Casual"]
+  },
+  {
+    "id": "p12",
+    "name": "Velvet Cocktail Dress",
+    "price": 310,
+    "image": "https://images.unsplash.com/photo-1566174058019-513aadc7a17e?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Formal", "Trending"]
+  },
+  {
+    "id": "p13",
+    "name": "Technical Parka",
+    "price": 245,
+    "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Casual", "Trending"]
+  },
+  {
+    "id": "p14",
+    "name": "Wide-Leg Trousers",
+    "price": 142,
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Casual", "Formal"]
+  },
+  {
+    "id": "p15",
+    "name": "Leather Chelsea Boots",
+    "price": 275,
+    "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Formal", "Casual"]
+  },
+  {
+    "id": "p16",
+    "name": "Sculpted Heel Mules",
+    "price": 189,
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Formal", "Trending"]
+  },
+  {
+    "id": "p17",
+    "name": "Ribbed Knit Cardigan",
+    "price": 118,
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Casual"]
+  },
+  {
+    "id": "p18",
+    "name": "Minimalist Tote — Leather",
+    "price": 198,
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Casual", "Trending"]
+  }
+]
