@@ -4,14 +4,16 @@
     "name": "Obsidian Wool Overcoat",
     "price": 289,
     "image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=800&q=85&auto=format&fit=crop",
-    "categories": ["Men", "Formal", "Trending"]
+    "categories": ["Men", "Formal", "Trending"],
+    "bestseller": true
   },
   {
     "id": "p2",
     "name": "Linen Summer Blazer",
     "price": 198,
     "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=85&auto=format&fit=crop",
-    "categories": ["Men", "Casual", "Trending"]
+    "categories": ["Men", "Casual", "Trending", "New Arrivals"],
+    "bestseller": true
   },
   {
     "id": "p3",
@@ -25,7 +27,8 @@
     "name": "Tailored Charcoal Suit",
     "price": 649,
     "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&q=85&auto=format&fit=crop",
-    "categories": ["Men", "Formal", "Trending"]
+    "categories": ["Men", "Formal", "Trending"],
+    "bestseller": true
   },
   {
     "id": "p5",
@@ -46,14 +49,16 @@
     "name": "Aurora Drape Dress",
     "price": 228,
     "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=85&auto=format&fit=crop",
-    "categories": ["Women", "Formal", "Trending"]
+    "categories": ["Women", "Formal", "Trending", "New Arrivals"],
+    "bestseller": true
   },
   {
     "id": "p8",
     "name": "Cashmere Wrap Coat",
     "price": 420,
     "image": "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?w=800&q=85&auto=format&fit=crop",
-    "categories": ["Women", "Formal", "Trending"]
+    "categories": ["Women", "Formal", "Trending"],
+    "bestseller": true
   },
   {
     "id": "p9",
@@ -67,7 +72,7 @@
     "name": "Structured Blazer — Ivory",
     "price": 265,
     "image": "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=800&q=85&auto=format&fit=crop",
-    "categories": ["Women", "Formal"]
+    "categories": ["Women", "Formal", "New Arrivals"]
   },
   {
     "id": "p11",
@@ -88,7 +93,7 @@
     "name": "Technical Parka",
     "price": 245,
     "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800&q=85&auto=format&fit=crop",
-    "categories": ["Men", "Casual", "Trending"]
+    "categories": ["Men", "Casual", "Trending", "New Arrivals"]
   },
   {
     "id": "p14",
@@ -102,14 +107,15 @@
     "name": "Leather Chelsea Boots",
     "price": 275,
     "image": "https://images.unsplash.com/photo-1638247025967-b4e38f787b76?w=800&q=85&auto=format&fit=crop",
-    "categories": ["Men", "Formal", "Casual"]
+    "categories": ["Men", "Formal", "Casual"],
+    "bestseller": true
   },
   {
     "id": "p16",
     "name": "Sculpted Heel Mules",
     "price": 189,
     "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=85&auto=format&fit=crop",
-    "categories": ["Women", "Formal", "Trending"]
+    "categories": ["Women", "Formal", "Trending", "New Arrivals"]
   },
   {
     "id": "p17",
@@ -124,5 +130,48 @@
     "price": 198,
     "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=85&auto=format&fit=crop",
     "categories": ["Women", "Casual", "Trending"]
+  },
+  {
+    "id": "p19",
+    "name": "Double-Faced Cashmere Scarf",
+    "price": 88,
+    "image": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Women", "Casual", "New Arrivals"]
+  },
+  {
+    "id": "p20",
+    "name": "Satin Bias Slip Dress",
+    "price": 178,
+    "image": "https://images.unsplash.com/photo-1515372038944-aab8a843d717?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Formal", "New Arrivals"]
+  },
+  {
+    "id": "p21",
+    "name": "Merino Quarter-Zip",
+    "price": 128,
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Casual", "New Arrivals"]
+  },
+  {
+    "id": "p22",
+    "name": "Tailored Wool Trousers",
+    "price": 218,
+    "image": "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Men", "Formal", "New Arrivals"]
+  },
+  {
+    "id": "p23",
+    "name": "Quilted Crossbody Bag",
+    "price": 168,
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Casual", "Trending", "New Arrivals"]
+  },
+  {
+    "id": "p24",
+    "name": "Alpaca Blend Throw Coat",
+    "price": 358,
+    "image": "https://images.unsplash.com/photo-1548624313-0396c75e4b9a?w=800&q=85&auto=format&fit=crop",
+    "categories": ["Women", "Formal", "Trending", "New Arrivals"],
+    "bestseller": true
   }
 ]

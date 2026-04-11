@@ -1,13 +1,17 @@
-const CATEGORIES = ['All', 'Men', 'Women', 'Casual', 'Formal', 'Trending']
+import { SHOP_CATEGORIES } from '../data/shopCategories'
 
-export function CategoryFilter({ active, onChange }) {
+export function CategoryFilter({
+  active,
+  onChange,
+  categories = SHOP_CATEGORIES,
+}) {
   return (
     <div
       className="flex flex-wrap gap-2 sm:gap-3"
       role="group"
       aria-label="Filter by category"
     >
-      {CATEGORIES.map((cat) => {
+      {categories.map((cat) => {
         const isOn = active === cat
         return (
           <button

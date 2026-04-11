@@ -58,9 +58,14 @@ export default function ProductDetailPage() {
               ${product.price}
             </p>
             <p className="mt-6 max-w-prose leading-relaxed text-muted">
-              Precision cut, premium materials, and a silhouette tuned for real
-              days — not just the campaign. Pair with other pieces from the same
-              category on the shop.
+              Cut and finished to our in-house block — the same pattern team that
+              fits clients on Mercer. Fibre content and care instructions ship
+              with every order; if you are between sizes, our notes on the shop
+              page explain where we built in ease.
+            </p>
+            <p className="mt-4 max-w-prose leading-relaxed text-muted">
+              Style it with other pieces from the tags below — each opens a
+              filtered view so you can build a full look without hunting.
             </p>
             <ul className="mt-6 flex flex-wrap gap-2">
               {product.categories.map((c) => (

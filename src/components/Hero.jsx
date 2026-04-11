@@ -44,18 +44,18 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-7xl gap-10 px-4 py-16 sm:px-6 sm:py-20 lg:grid-cols-2 lg:items-center lg:gap-12 lg:px-8 lg:py-28">
         <div className="max-w-xl">
           <p className="hero-anim mb-4 inline-flex items-center rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-primary">
-            New season
+            Winter prism edit · live now
           </p>
           <h1 className="hero-anim font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl">
-            Light bends through{' '}
+            Dress like the light found you{' '}
             <span className="bg-gradient-to-r from-primary via-white to-accent-rose bg-clip-text text-transparent">
-              every look
+              first
             </span>
-            .
           </h1>
           <p className="hero-anim mt-5 text-lg leading-relaxed text-muted sm:text-xl">
-            Attire Prism refracts style into clarity — tailored pieces, fluid
-            casuals, and runway energy for men and women who dress with intent.
+            Attire Prism is a modern luxury house for people who want their
+            clothes to whisper, not shout — precision tailoring, tactile
+            casuals, and drops that sell through on merit, not hype.
           </p>
           <div className="hero-anim mt-8 flex flex-wrap items-center gap-4">
             <Link
@@ -65,10 +65,10 @@ export function Hero() {
               Shop now
             </Link>
             <Link
-              to="/about"
+              to="/shop?category=New%20Arrivals"
               className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/15 px-8 text-base font-medium text-white transition hover:border-primary/50 hover:text-primary"
             >
-              Our story
+              Explore new arrivals
             </Link>
           </div>
         </div>
@@ -77,7 +77,7 @@ export function Hero() {
           <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-white/10 bg-surface-800 shadow-2xl shadow-primary/15 ring-1 ring-white/5 sm:aspect-[3/4] lg:ml-auto lg:max-w-lg">
             <img
               src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=900&q=85&auto=format&fit=crop"
-              alt="Fashion editorial — Attire Prism"
+              alt="Attire Prism — hero campaign"
               className="h-full w-full object-cover transition duration-700 ease-out hover:scale-105"
               loading="eager"
               fetchPriority="high"
@@ -89,7 +89,7 @@ export function Hero() {
                 Prism Edit — Vol. IV
               </p>
               <p className="mt-1 text-xs text-muted">
-                Curated layers for city nights and slow mornings.
+                Shot in-house · same team that steams every outbound order
               </p>
             </div>
           </div>
