@@ -5,7 +5,7 @@
 export const shopImages = {
   about: [
     {
-      src: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=85&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1200&q=85&auto=format&fit=crop',
       alt: 'Boutique interior with curated racks',
     },
     {
@@ -13,7 +13,7 @@ export const shopImages = {
       alt: 'Tailoring workspace and fabrics',
     },
     {
-      src: 'https://images.unsplash.com/photo-1556906781-9a412961c28c?w=1200&q=85&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=85&auto=format&fit=crop',
       alt: 'Display of seasonal collection',
     },
   ],
@@ -24,8 +24,8 @@ export const shopImages = {
       layout: 'tall',
     },
     {
-      src: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=900&q=85&auto=format&fit=crop',
-      alt: 'Runway-inspired styling',
+      src: 'https://images.unsplash.com/photo-1445205170230-053b83016050?w=900&q=85&auto=format&fit=crop',
+      alt: 'Outerwear style',
       layout: 'wide',
     },
     {
@@ -34,29 +34,29 @@ export const shopImages = {
       layout: 'square',
     },
     {
-      src: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=900&q=85&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1485230895905-ef291f0612bb?w=900&q=85&auto=format&fit=crop',
       alt: 'Evening wear detail',
       layout: 'tall',
     },
     {
-      src: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=900&q=85&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1550614000-4b95393ac09b?w=900&q=85&auto=format&fit=crop',
       alt: 'Shopping experience',
       layout: 'square',
     },
     {
-      src: 'https://images.unsplash.com/photo-1558171813-4c088753af8f?w=900&q=85&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1520006403909-838d6b92c22e?w=900&q=85&auto=format&fit=crop',
       alt: 'Fabric texture study',
       layout: 'wide',
     },
     {
-      src: 'https://images.unsplash.com/photo-1523381210438-271e8be1f52b?w=900&q=85&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1489987707023-afc232dce9f2?w=900&q=85&auto=format&fit=crop',
       alt: 'Casual essentials display',
       layout: 'square',
     },
     {
-      src: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=900&q=85&auto=format&fit=crop',
+      src: 'https://images.unsplash.com/photo-1574341258671-5509de168df6?w=900&q=85&auto=format&fit=crop',
       alt: 'Layered outerwear',
-      layout: 'tall',
+      layout: 'square',
     },
   ],
 }
